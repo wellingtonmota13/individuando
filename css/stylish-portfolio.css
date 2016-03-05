@@ -6,6 +6,8 @@
 
 /* Global Styles */
 
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,600,700);
+
 html,
 body {
     width: 100%;
@@ -25,15 +27,27 @@ ul {
     list-style-type: none;
 
 }
-li {
+li{
     padding-bottom:5px;
+}
+#about li {
+ 
     border-bottom: 1px solid;
     border-color: #c1c1c1;
     width:400px;
 }
 
-ul li h4 {
+#about ul li h4 {
     font-weight:400;
+}
+
+
+.persona-box {
+    width:100%;
+    background-color:#1ac4fc;
+    padding: 5px 30px 30px 30px;
+    margin-top:30px;
+    color:#fff;
 }
 
 .text-vertical-center {
@@ -271,7 +285,7 @@ hr.small {
 
 @media (min-width: 1200px) {
   .containers {
-    width: 1450px;
+    width: 1480px;
   }
   .container{
     width:900px;
