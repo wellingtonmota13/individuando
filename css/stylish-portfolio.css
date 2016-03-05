@@ -18,6 +18,24 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#top img {max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+
+}
+li {
+    padding-bottom:5px;
+    border-bottom: 1px solid;
+    border-color: #c1c1c1;
+    width:400px;
+}
+
+ul li h4 {
+    font-weight:400;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -229,7 +247,7 @@ hr.small {
 }
 
 .logo {
- padding:70px 0 50px 0;
+ padding:70px 0 0 0;
 }
 
 .col-centered{
@@ -252,8 +270,11 @@ hr.small {
 
 
 @media (min-width: 1200px) {
-  .container {
+  .containers {
     width: 1450px;
+  }
+  .container{
+    width:900px;
   }
 }
 
@@ -307,7 +328,7 @@ footer {
     background: #3085a3;
     text-align: center;
     cursor: pointer;
-    border-radius:19px;
+    border-radius:12px;
 
 }
 
@@ -317,7 +338,7 @@ footer {
     min-height: 100%;
     max-width: 100%;
     opacity: 0.8;
-    border-radius: 19px; 
+    border-radius: 12px; 
 
 }
 
@@ -362,7 +383,10 @@ footer {
 
 .grid figure h2 {
     word-spacing: -0.15em;
-    font-weight: 800;}
+    font-weight: 300;
+    font-size:1em;
+}
+
 
 .grid figure h2 span {
     font-weight: 800;
@@ -386,7 +410,7 @@ footer {
 /*---------------*/
 
 figure.effect-honey {
-    background: #4a3753;
+    background: #000;
 }
 
 figure.effect-honey img {
@@ -414,10 +438,10 @@ figure.effect-honey h2 {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 1em 0;
+    padding: 1.5em 0;
     width: 100%;
     text-align: center;
-    font-size:1.5em;
+    font-size:1.3em;
 
 }
 
