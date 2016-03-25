@@ -226,6 +226,10 @@ hr.small {
     -o-background-size: cover;
 }
 
+.callout img {
+    margin:100px;
+}
+
 /* Portfolio */
 
 .portfolio {
