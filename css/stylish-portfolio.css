@@ -13,6 +13,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+
 }
 }
 
@@ -487,7 +488,7 @@ figure.effect-honey:hover h2 i {
 }
 
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 460px) {
     .content {
         padding: 0 10px;
         text-align: center;
@@ -497,5 +498,24 @@ figure.effect-honey:hover h2 i {
         float: none;
         margin: 10px auto;
         width: 100%;
+        height:160px;
+    }
+
+    .cta-home {
+        margin-bottom:90px;
+        margin-top:10px;
+    }
+
+    .callout img, #infografico img {
+        width:99%;
+        margin-left:0px;
     }
 }
+
+
+
+@media(max-width:450px) {
+
+
+  
+  }
